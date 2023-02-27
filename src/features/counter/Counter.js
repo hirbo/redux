@@ -31,7 +31,7 @@ const addValue = Number(amount) || 0
         >
         </input>
         <button onClick={() =>{dispatch(incrementbyAmount(addValue))}}>
-                inc by amount
+                increase by amount
         </button>
         
     </div>
